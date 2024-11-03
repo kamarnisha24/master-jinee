@@ -31,21 +31,31 @@ For Software:
 
 
 ### Project Documentation
-For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot_2-11-2024_17383_](https://github.com/user-attachments/assets/223118b3-2255-4508-9c8a-a73ad30bc923)
-first page with a quick introduction about the genie in comical way.
 
+.
 
+![Screenshot_2-11-2024_173631_](https://github.com/user-attachments/assets/858ee686-3bba-4fee-aedc-3108a962d6fb)
+first page with a quick introduction about the genie in comical way
 
 ![Screenshot_2-11-2024_17377_](https://github.com/user-attachments/assets/fb039608-4b35-4abc-90e4-fc662abc89ee)
 second page with user's name and wish
 
-![Screenshot_2-11-2024_17383_](https://github.com/user-attachments/assets/93925285-ae61-4a42-abd9-7b733464f53a)
+![Screenshot_2-11-2024_17383_](https://github.com/user-attachments/assets/04fc8f5a-86b4-438f-99a6-d7f3b04a4fae)
+
 third page with genie's roast
 
+### Project Demo
+# Video
+https://drive.google.com/file/d/13VYlD2IxP7OxIU_9tYOroV-afUJQW8DL/view?usp=drivesdk
+
+Team individual contributions
+
 kamar nisha fathima: ideologies
+
+
+
 anandhu krishnan: coding
 
 
