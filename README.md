@@ -9,8 +9,8 @@
 https://drive.google.com/file/d/1SCw5RKlT2FoDwmsBGrKcvdFIct7wxhvq/view?usp=drivesdk
 
 ### Team Members
-- Team Lead: kamar nisha fathima - mar baselios cristian college peermade
-- Member 2: anandhu krishnan - mar baselios cristian college peermade
+- Team Lead: kamar nisha fathima - mar baselios christian college peermade
+- Member 2: anandhu krishnan - mar baselios christian college peermade
 -
 -###URL
 [Link text](file:///C:/Users/usfal/OneDrive/Algo%20(3).html)
