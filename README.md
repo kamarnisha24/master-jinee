@@ -6,7 +6,7 @@
 
 ### Project Demo
 # Video
-https://drive.google.com/file/d/13VYlD2IxP7OxIU_9tYOroV-afUJQW8DL/view?usp=drivesdk
+https://drive.google.com/file/d/1SCw5RKlT2FoDwmsBGrKcvdFIct7wxhvq/view?usp=drivesdk
 
 ### Team Members
 - Team Lead: kamar nisha fathima - mar baselios cristian college peermade
