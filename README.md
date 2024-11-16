@@ -1,4 +1,4 @@
-t# master-genie 🎯
+# master-genie 🎯
 
 
 ## Basic Details
@@ -22,9 +22,9 @@ https://drive.google.com/file/d/13VYlD2IxP7OxIU_9tYOroV-afUJQW8DL/view?usp=drive
 ### Project Description
 this project focuses on humour , which adds to the user enjoyment,entertaining and memorable approach
 
-### The Problem (that doesn't exist)
+### The Problem 
 for people who stress over every little detail,genie swooped in with quick roast to remaind them that not everything needs to be taken so seriously
-### The Solution (that nobody asked for)
+### The Solution 
 Filled with Laughter and Energy: The whole team probably couldn’t stop laughing as you brainstormed roast ideas and tested Genie’s responses, turning the hackathon into a truly fun experience.
 
 
