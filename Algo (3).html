@@ -1,0 +1,337 @@
+<style>
+  .jinnee-container {
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    min-height: 100vh;
+    font-family: 'Arial', sans-serif;
+    color: #e7b96f;
+    padding: 2rem;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .intro-text {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin: 0 auto 2rem;
+    max-width: 80%;
+    padding: 1.5rem;
+    background: rgba(231, 185, 111, 0.1);
+    border-radius: 10px;
+    border: 1px solid rgba(231, 185, 111, 0.2);
+    text-shadow: 0 0 5px rgba(231, 185, 111, 0.3);
+    animation: fadeIn 1s ease;
+  }
+
+  .intro-text p {
+    margin: 0.5rem 0;
+  }
+
+  .intro-text em {
+    color: #d4af37;
+    font-style: italic;
+  }
+
+  .scroll-decoration {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+    color: #e7b96f;
+    opacity: 0.6;
+  }
+
+  .star {
+    position: absolute;
+    background: #e7b96f;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    animation: twinkle var(--duration) ease-in-out infinite;
+    opacity: 0.6;
+  }
+
+  @keyframes twinkle {
+
+    0%,
+    100% {
+      transform: scale(1);
+      opacity: 0.6;
+    }
+
+    50% {
+      transform: scale(1.2);
+      opacity: 1;
+    }
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .screen {
+    display: none;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 15px;
+    padding: 2rem;
+    max-width: 600px;
+    margin: 0 auto;
+    border: 2px solid #e7b96f;
+    position: relative;
+    overflow: hidden;
+  }
+
+  #start-screen {
+    display: block;
+  }
+
+  #start-screen::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M30 0L45 30L30 60L15 30L30 0Z' fill='%23e7b96f' fill-opacity='0.1'/%3E%3C/svg%3E");
+    opacity: 0.1;
+    z-index: -1;
+  }
+
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    text-shadow: 0 0 10px rgba(231, 185, 111, 0.5);
+    font-family: 'Arial', cursive;
+  }
+
+  button {
+    background: linear-gradient(45deg, #e7b96f 0%, #d4af37 100%);
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    color: #1a1a2e;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    font-weight: bold;
+    text-transform: uppercase;
+    box-shadow: 0 4px 15px rgba(231, 185, 111, 0.3);
+  }
+
+  button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(231, 185, 111, 0.4);
+  }
+
+  #jinnee {
+    font-size: 8rem;
+    margin: 2rem 0;
+    animation: float 3s ease-in-out infinite;
+    text-shadow: 0 0 20px rgba(231, 185, 111, 0.7);
+    opacity: 0;
+    transition: opacity 0.5s ease;
+  }
+
+  @keyframes float {
+
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+
+    50% {
+      transform: translateY(-20px);
+    }
+  }
+
+  @keyframes glow {
+    0% {
+      filter: drop-shadow(0 0 10px #e7b96f);
+    }
+
+    50% {
+      filter: drop-shadow(0 0 30px #e7b96f);
+    }
+
+    100% {
+      filter: drop-shadow(0 0 10px #e7b96f);
+    }
+  }
+
+  .input-group {
+    margin: 1rem 0;
+  }
+
+  input {
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid #e7b96f;
+    padding: 1rem;
+    width: 80%;
+    max-width: 400px;
+    color: #e7b96f;
+    border-radius: 8px;
+    font-size: 1rem;
+  }
+
+  input::placeholder {
+    color: rgba(231, 185, 111, 0.5);
+  }
+
+  .response {
+    font-size: 1.5rem;
+    margin: 2rem 0;
+    padding: 1rem;
+    border-radius: 10px;
+    background: rgba(231, 185, 111, 0.1);
+    animation: fadeIn 0.5s ease;
+  }
+
+  .ornament {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    opacity: 0.1;
+  }
+
+  .ornament-tl {
+    top: 0;
+    left: 0;
+    border-top: 2px solid #e7b96f;
+    border-left: 2px solid #e7b96f;
+    border-radius: 15px 0 0 0;
+  }
+
+  .ornament-tr {
+    top: 0;
+    right: 0;
+    border-top: 2px solid #e7b96f;
+    border-right: 2px solid #e7b96f;
+    border-radius: 0 15px 0 0;
+  }
+
+  .ornament-bl {
+    bottom: 0;
+    left: 0;
+    border-bottom: 2px solid #e7b96f;
+    border-left: 2px solid #e7b96f;
+    border-radius: 0 0 0 15px;
+  }
+
+  .ornament-br {
+    bottom: 0;
+    right: 0;
+    border-bottom: 2px solid #e7b96f;
+    border-right: 2px solid #e7b96f;
+    border-radius: 0 0 15px 0;
+  }
+</style>
+
+<script>
+  const responses = [
+    "Oh great, ANOTHER wish? Don't you have better things to do?",
+    "Let me guess, you want world peace? How original... *eye roll*",
+    "Thousands of years in a lamp and THIS is what I get?",
+    "I've met rocks with more interesting wishes than yours...",
+    "You're really making me miss that cramped lamp right now.",
+    "*Sighs dramatically* Mortals these days...",
+    "Did you get your wish ideas from a fortune cookie?",
+    "I'm an all-powerful being and you want WHAT?",
+    "Are you sure that's your wish? Like, really sure? Because... wow.",
+    "I've granted wishes to donkeys with more creativity.",
+    "Oh honey, that wish is so last millennium.",
+    "*Checks calendar* Yep, still too many centuries left until retirement..."
+  ];
+
+  function createStars() {
+    const container = document.querySelector('.jinnee-container');
+    for (let i = 0; i < 50; i++) {
+      const star = document.createElement('div');
+      star.className = 'star';
+      star.style.width = Math.random() * 10 + 5 + 'px';
+      star.style.height = star.style.width;
+      star.style.left = Math.random() * 100 + '%';
+      star.style.top = Math.random() * 100 + '%';
+      star.style.setProperty('--duration', Math.random() * 2 + 1 + 's');
+      container.appendChild(star);
+    }
+  }
+
+  function showScreen(screenId) {
+    document.querySelectorAll('.screen').forEach(screen => screen.style.display = 'none');
+    document.getElementById(screenId).style.display = 'block';
+
+    if (screenId === 'wish-screen') {
+      const jinnee = document.getElementById('jinnee');
+      jinnee.style.opacity = '1';
+      jinnee.style.animation = 'glow 3s ease-in-out, float 3s ease-in-out infinite';
+      setTimeout(() => {
+        jinnee.style.animation = 'float 3s ease-in-out infinite';
+      }, 3000);
+    }
+  }
+
+  function submitWish() {
+    const name = document.querySelector('input[placeholder="Your Name, Mortal"]').value || "Nameless Wonder";
+    const wish = document.querySelector('input[placeholder="Your Wish, If You Dare"]').value || "nothing interesting";
+
+    const response = responses[Math.floor(Math.random() * responses.length)];
+    document.getElementById('jinnee-response').textContent = `Ah, ${name}... ${response}
+    And all you wished for was "${wish}"? *facepalm*`;
+
+    showScreen('response-screen');
+  }
+
+  document.addEventListener('DOMContentLoaded', createStars);
+</script>
+
+<div class="jinnee-container">
+  <div id="start-screen" class="screen">
+    <div class="ornament ornament-tl"></div>
+    <div class="ornament ornament-tr"></div>
+    <div class="ornament ornament-bl"></div>
+    <div class="ornament ornament-br"></div>
+
+    <h1>Master Jinnee</h1>
+
+    <div class="scroll-decoration">⚜️</div>
+
+    <div class="intro-text">
+      <p>Behold, mere mortal! You stand before an ancient being of *immeasurable* power and *limited* patience.</p>
+
+      <p>After 3,000 years of granting wishes to kings, warriors, and that <em>particularly annoying</em> merchant from
+        Baghdad, I now find myself at the beck and call of... well, you.</p>
+
+      <p>*Sigh* Go ahead, summon me. But please, try to be more creative than the last one who wished for <em>"unlimited
+          wishes"</em>. I mean, seriously? </p>
+    </div>
+
+    <button onclick="showScreen('wish-screen')">
+      Summon the Jinnee
+    </button>
+  </div>
+
+  <div id="wish-screen" class="screen">
+    <div id="jinnee">
+      🧞
+    </div>
+    <div class="input-group">
+      <input type="text" placeholder="Your Name, Mortal" />
+    </div>
+    <div class="input-group">
+      <input type="text" placeholder="Your Wish, If You Dare" />
+    </div>
+    <button onclick="submitWish()">Disturb the Jinnee</button>
+  </div>
+
+  <div id="response-screen" class="screen">
+    <div id="jinnee">
+      🧞
+    </div>
+    <div id="jinnee-response" class="response"></div>
+    <button onclick="showScreen('wish-screen')">Dare to Wish Again?</button>
+  </div>
+</div>
