@@ -13,11 +13,8 @@ https://drive.google.com/file/d/13VYlD2IxP7OxIU_9tYOroV-afUJQW8DL/view?usp=drive
 - Member 2: anandhu krishnan - mar baselios cristian college peermade
 -
 -###URL
-https://1drv.ms/u/c/bc0f7aaf5ebcda4c/Ebo3MUDDm35KlLvQjSyhC6EBw-jvx3lKvZ7QhLpxM9NCMQ?e=VjTMIp
+[link text]file:///C:/Users/usfal/OneDrive/Algo%20(3).html
 - 
-
-###Sreen record
-https://drive.google.com/file/d/13VYlD2IxP7OxIU_9tYOroV-afUJQW8DL/view?usp=drivesdk
 
 ### Project Description
 this project focuses on humour , which adds to the user enjoyment,entertaining and memorable approach
