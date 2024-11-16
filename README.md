@@ -1,5 +1,5 @@
 # master-genie 🎯
-[link text](file:///C:/Users/usfal/Dropbox/Algo%20(3).html)
+
 
 ## Basic Details
 ### Team Name: algo
@@ -12,8 +12,7 @@ https://drive.google.com/file/d/1SCw5RKlT2FoDwmsBGrKcvdFIct7wxhvq/view?usp=drive
 - Team Lead: kamar nisha fathima - mar baselios christian college peermade
 - Member 2: anandhu krishnan - mar baselios christian college peermade
 -
--### URL
-(file:///C:/Users/usfal/Dropbox/Algo%20(3).html)
+
 - 
 
 ### Project Description
