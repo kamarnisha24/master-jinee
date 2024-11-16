@@ -4,17 +4,20 @@ t# master-genie 🎯
 ## Basic Details
 ### Team Name: algo
 
+### Project Demo
+# Video
+https://drive.google.com/file/d/13VYlD2IxP7OxIU_9tYOroV-afUJQW8DL/view?usp=drivesdk
 
 ### Team Members
 - Team Lead: kamar nisha fathima - mar baselios cristian college peermade
 - Member 2: anandhu krishnan - mar baselios cristian college peermade
 -
 -###URL
-content://com.whatsapp.provider.media/item/2ff8d5b2-2490-4572-bfd0-e570f27d41e6
+file:///C:/Users/usfal/OneDrive/Algo%20(3).html
 - 
 
 ###Sreen record
-file:///C:/Users/usfal/OneDrive/Algo%20(3).html
+https://drive.google.com/file/d/13VYlD2IxP7OxIU_9tYOroV-afUJQW8DL/view?usp=drivesdk
 
 ### Project Description
 this project focuses on humour , which adds to the user enjoyment,entertaining and memorable approach
@@ -52,9 +55,7 @@ second page with user's name and wish
 
 third page with genie's roast
 
-### Project Demo
-# Video
-https://drive.google.com/file/d/13VYlD2IxP7OxIU_9tYOroV-afUJQW8DL/view?usp=drivesdk
+
 
 Team individual contributions
 
